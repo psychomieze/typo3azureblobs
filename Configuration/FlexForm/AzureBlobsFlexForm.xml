@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<ROOT>
+		<type>array</type>
+		<el>
+			<containerName>
+				<TCEforms>
+					<label>Container Name</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+					</config>
+				</TCEforms>
+			</containerName>
+			<defaultEndpointsProtocol>
+				<TCEforms>
+					<label>DefaultEndpointsProtocol</label>
+					<config>
+						<type>select</type>
+						<size>1</size>
+						<minitems>1</minitems>
+						<maxitems>1</maxitems>
+						<items type="array">
+							<numIndex index="0" type="array">
+								<numIndex index="0">http</numIndex>
+								<numIndex index="1">http</numIndex>
+							</numIndex>
+							<numIndex index="1" type="array">
+								<numIndex index="0">https</numIndex>
+								<numIndex index="1">https</numIndex>
+							</numIndex>
+						</items>
+					</config>
+				</TCEforms>
+			</defaultEndpointsProtocol>
+			<accountName>
+				<TCEforms>
+					<label>Account Name</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+					</config>
+				</TCEforms>
+			</accountName>
+			<accountKey>
+				<TCEforms>
+					<label>Account Key</label>
+					<config>
+						<type>input</type>
+						<size>30</size>
+						<eval>password</eval>
+					</config>
+				</TCEforms>
+			</accountKey>
+		</el>
+	</ROOT>
+</T3DataStructure>
