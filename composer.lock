@@ -1,0 +1,183 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a25f096fbbdc427123bdeaaa9a9459f5",
+    "packages": [
+        {
+            "name": "microsoft/windowsazure",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Azure/azure-sdk-for-php.git",
+                "reference": "84bac84abc57dccd94603a0fcac3277aa47c3257"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Azure/azure-sdk-for-php/zipball/84bac84abc57dccd94603a0fcac3277aa47c3257",
+                "reference": "84bac84abc57dccd94603a0fcac3277aa47c3257",
+                "shasum": ""
+            },
+            "require": {
+                "pear-pear2.php.net/http_request2": "*",
+                "pear-pear2.php.net/mail_mime": "*",
+                "pear-pear2.php.net/mail_mimedecode": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "WindowsAzure\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Azure PHP SDK",
+                    "email": "azurephpsdk@microsoft.com"
+                }
+            ],
+            "description": "This project provides a set of PHP client libraries that make it easy to access Windows Azure tables, blobs, queues, service runtime and service management APIs.",
+            "keywords": [
+                "azure",
+                "php",
+                "sdk"
+            ],
+            "time": "2015-03-03 16:26:26"
+        },
+        {
+            "name": "pear-pear.php.net/HTTP_Request2",
+            "version": "0.4.0",
+            "dist": {
+                "type": "file",
+                "url": "http://pear.php.net/get/HTTP_Request2-0.4.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "pear-pear.php.net/net_url2": ">=0.2.0.0",
+                "php": ">=5.1.4.0"
+            },
+            "replace": {
+                "pear-pear/http_request2": "== 0.4.0.0",
+                "pear-pear2.php.net/http_request2": "== 0.4.0.0"
+            },
+            "type": "pear-library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "include-path": [
+                "/"
+            ],
+            "license": [
+                "BSD License"
+            ],
+            "description": "PHP5 rewrite of HTTP_Request package (with parts of HTTP_Client). Provides\ncleaner API and pluggable Adapters:\n  * Socket adapter, based on old HTTP_Request code,\n  * Curl adapter, wraps around PHP's cURL extension,\n  * Mock adapter, to use for testing packages dependent on HTTP_Request2.\nSupports POST requests with data and file uploads, basic and digest\nauthentication, cookies, managing cookies across requests, proxies, gzip and\ndeflate encodings, redirects, monitoring the request progress with Observers..."
+        },
+        {
+            "name": "pear-pear.php.net/Mail_Mime",
+            "version": "1.10.0",
+            "dist": {
+                "type": "file",
+                "url": "http://pear.php.net/get/Mail_Mime-1.10.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.0.0.0"
+            },
+            "replace": {
+                "pear-pear/mail_mime": "== 1.10.0.0",
+                "pear-pear2.php.net/mail_mime": "== 1.10.0.0"
+            },
+            "type": "pear-library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "include-path": [
+                "/"
+            ],
+            "license": [
+                "BSD Style"
+            ],
+            "description": "Mail_Mime provides classes to deal with the creation and manipulation of MIME messages.\nIt allows people to create e-mail messages consisting of:\n* Text Parts\n* HTML Parts\n* Inline HTML Images\n* Attachments\n* Attached messages\n\nIt supports big messages, base64 and quoted-printable encodings and\nnon-ASCII characters in filenames, subjects, recipients, etc. encoded\nusing RFC2047 and/or RFC2231."
+        },
+        {
+            "name": "pear-pear.php.net/Mail_mimeDecode",
+            "version": "1.5.5",
+            "dist": {
+                "type": "file",
+                "url": "http://pear.php.net/get/Mail_mimeDecode-1.5.5.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "pear-pear.php.net/mail_mime": ">1.4.0.0",
+                "php": ">=4.3.0.0"
+            },
+            "replace": {
+                "pear-pear/mail_mimedecode": "== 1.5.5.0",
+                "pear-pear2.php.net/mail_mimedecode": "== 1.5.5.0"
+            },
+            "type": "pear-library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "include-path": [
+                "/"
+            ],
+            "license": [
+                "BSD Style"
+            ],
+            "description": "Provides a class to deal with the decoding and interpreting of mime messages.\n This package used to be part of the Mail_Mime package, but has been split off."
+        },
+        {
+            "name": "pear-pear.php.net/Net_URL2",
+            "version": "2.2.0",
+            "dist": {
+                "type": "file",
+                "url": "http://pear.php.net/get/Net_URL2-2.2.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">=5.1.4.0"
+            },
+            "replace": {
+                "pear-pear/net_url2": "== 2.2.0.0",
+                "pear-pear2.php.net/net_url2": "== 2.2.0.0"
+            },
+            "type": "pear-library",
+            "autoload": {
+                "classmap": [
+                    ""
+                ]
+            },
+            "include-path": [
+                "/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Provides parsing of URLs into their constituent parts (scheme, host, path etc.), URL generation, and resolving of\n    relative URLs."
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

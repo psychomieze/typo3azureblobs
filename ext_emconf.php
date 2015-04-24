@@ -1,15 +1,5 @@
 <?php
 
-/***************************************************************
- * Extension Manager/Repository config file for ext "aus_driver_amazon_s3".
- *
- * Auto generated 08-04-2015 16:31
- *
- * Manual updates:
- * Only the data in the array - everything else is removed by next
- * writing. "version" and "dependencies" must not be touched!
- ***************************************************************/
-
 $EM_CONF[$_EXTKEY] = array (
 	'title' => 'Azure Blob Storage Driver',
 	'description' => 'Provides a FAL driver for the Azure Blob Storage.',
@@ -26,7 +16,7 @@ $EM_CONF[$_EXTKEY] = array (
 	array (
 		'depends' => 
 		array (
-			'typo3' => '6.2.0-7.99.99',
+			'typo3' => '7.5.0-7.99.99',
 		),
 		'conflicts' => 
 		array (
