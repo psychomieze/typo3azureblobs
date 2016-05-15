@@ -6,7 +6,7 @@ Warning! This extension is in alpha state, do not use in production!
 Note: This extension currently requires a composer based installation.
 
 * Extract the extension to a folder called azure_blobs
-* Add composer dependency on "microsoft/windowsazure": "^0.4.1"
+* Add composer dependency on "microsoft/azure-storage": "*"
 * Install the extension in the install tool
 
 
